@@ -77,9 +77,81 @@ str(10)
 1. List
 
    ​	syntax: name = [xxx,yyy,zzz]
+   ​				     0	   1    2  positive indexing
+   ​				    -3   -2  -1   negative indexing
+
+
+
+# List Slicing Examples
+
+Let's suppose we have the following list in our Python shell:
+
+```
+>>> days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+```
+
+Here is how to access the first three items (from first to third):
+`>>> days[0:3]` 
+
+Output:
+`['Mon', 'Tue', 'Wed']` 
+
+Access items from first to fourth:
+`>>> days[0:4]` 
+`['Mon', 'Tue', 'Wed', 'Thu']` 
+
+Exactly the same as above
+`>>> days[:4]` 
+`['Mon', 'Tue', 'Wed', 'Thu']` 
+
+No boundaries
+`>>> days[:]` 
+`['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']` 
+
+From first to second-to-last
+`>>> days[0:-1]` 
+`['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']` 
+
+From first to third-to-last
+`>>> days[:-2]` 
+`['Mon', 'Tue', 'Wed', 'Thu', 'Fri']` 
+
+From third-to-last to second-to-last
+`>>> days[-3:-1]` 
+`['Fri', 'Sat']` 
+
+From third-to-last to last
+`>>> days[-3:]` 
+`['Fri', 'Sat', 'Sun']` 
+
+# List Methods
+
+​	listName.method()
 
 # Functions
 
 len()
 ​	gives length of item within ().
+
+# Tuples
+
+Section 2, Lecture 17
+
+There's another datatype in Python called a `tuple` :
+
+```
+mytuple = (1, 2, "Three")
+```
+
+It's exactly like a `list`  except:
+
+\1. You use round brackets instead of square brackets to define it.
+
+\2. A tuple is not mutable which means you can't append or remove items from tuples, unlike lists. Trying to do append to a tuple would throw an error:
+
+```
+>>> mytuple = (1, 2, "Three") >>> mytuple.append("Four")Traceback (most recent call last):  File "<stdin>", line 1, in <module>AttributeError: 'tuple' object has no attribute 'append'
+```
+
+Tuples are rarely used but if you ever want to have a sequence that you really don't want to be changed, then tuples might be a good idea to use.
 
