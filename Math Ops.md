@@ -1,4 +1,6 @@
-# Math Ops
+# Python Notes
+
+## Math Ops
 
 Addition
 
@@ -61,7 +63,7 @@ However you can control what to execute first by using parenthesis:
 
 You get 300 because first we get 3 from 1 + 2, and then we get 100 from 10**2 and then 300 from 3 * 100.
 
-# Data Types
+## Data Types
 
 float("100.10")
 100.1
@@ -82,7 +84,7 @@ str(10)
 
 
 
-# List Slicing Examples
+## List Slicing Examples
 
 Let's suppose we have the following list in our Python shell:
 
@@ -124,16 +126,16 @@ From third-to-last to last
 `>>> days[-3:]` 
 `['Fri', 'Sat', 'Sun']` 
 
-# List Methods
+## List Methods
 
 ​	listName.method()
 
-# Functions
+## Functions
 
 len()
 ​	gives length of item within ().
 
-# Tuples
+## Tuples
 
 Section 2, Lecture 17
 
