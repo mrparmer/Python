@@ -76,15 +76,9 @@ str(10)
 
 ![1537496247096](C:\Users\Mparmer-Desk\AppData\Roaming\Typora\typora-user-images\1537496247096.png)
 
-1. List
-
-   ​	syntax: name = [xxx,yyy,zzz]
-   ​				     0	   1    2  positive indexing
-   ​				    -3   -2  -1   negative indexing
+# List Slicing Examples
 
 
-
-## List Slicing Examples
 
 Let's suppose we have the following list in our Python shell:
 
@@ -130,6 +124,16 @@ From third-to-last to last
 
 ​	listName.method()
 
+List
+
+​	syntax: name = [xxx,yyy,zzz]
+​				     0	   1    2  positive indexing
+​				    -3   -2  -1   negative indexing
+
+​	Lists contain 1 value/entry separated by a comma.
+
+​	
+
 ## Functions
 
 len()
@@ -157,3 +161,59 @@ It's exactly like a `list`  except:
 
 Tuples are rarely used but if you ever want to have a sequence that you really don't want to be changed, then tuples might be a good idea to use.
 
+# Dictionary Info
+
+Dictionaries are similar to lists, however they contain linked entries, separated by a colon, like on line 2 in the	 			 
+
+image above you have a key/value, and it's linked value/definition.
+
+number indexing does not work. 
+​	pins[0] would give an error.
+​	pins["Mike"] returns the value linked to the key, so 1234.
+​	To see all of the keys in a dictionary dict_name.keys()
+​	To see all of the values assigned to the keys dict_name.values()
+
+Let's say we have the following dictionary:
+
+```
+>>> person97 = {"name":"Jack", "surname":"Smith", "age":"29"}
+```
+
+Removing pair *"name":"Jack"*
+`>>> person97.pop("name")` 
+`'Jack'` 
+`>>> person97` 
+`{'surname': 'Smith', 'age': '29'}` 
+
+Adding new pair *"name":"Jack"*
+`>>> person97["name"] = "Jack"` 
+`>>> person97` 
+`{'surname': 'Smith', 'age': '29', 'name': 'Jack'}` 
+
+Changing an existing value
+`person97["age"] = 30` 
+`person97` 
+`{'surname': 'Smith', 'age': 30, 'name': 'Jack'}` 
+
+Mapping two lists to a dictionary:
+
+keys = ["a", "b", "c"] 
+values = [1, 2, 3] 
+mydict = dict(zip(keys, values)) 
+mydict 
+{'a': 1, 'b': 2, 'c': 3} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
