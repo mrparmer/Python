@@ -205,6 +205,23 @@ mydict 
 
 
 
+# Conditionals
+
+## if/else
+
+​	if var in list/dict/array
+​	    action #4 spaces before first work in second line
+​	else:
+​	    action
+
+user_input = float(input("Enter a number: "))
+
+if user_input > 100:
+​    print("Greater")
+elif user_input < 100:
+​    print("Lesser")
+elif user_input == 100:
+​    print("Equal")
 
 
 
@@ -216,4 +233,4 @@ mydict 
 
 
 
-  
+
