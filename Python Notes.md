@@ -197,13 +197,13 @@ Changing an existing value
 
 Mapping two lists to a dictionary:
 
+
+
 keys = ["a", "b", "c"] 
 values = [1, 2, 3] 
 mydict = dict(zip(keys, values)) 
 mydict 
 {'a': 1, 'b': 2, 'c': 3} 
-
-
 
 # Conditionals
 
@@ -214,14 +214,21 @@ mydict 
 ​	else:
 ​	    action
 
-user_input = float(input("Enter a number: "))
 
+
+```python
+user_input = float(input("Enter a number: "))
 if user_input > 100:
-​    print("Greater")
+    print("Greater")
 elif user_input < 100:
-​    print("Lesser")
+    print("Lesser")
 elif user_input == 100:
-​    print("Equal")
+    print("Equal")
+```
+
+
+
+
 
 # Custom Functions
 
@@ -237,6 +244,7 @@ Functions are similar to Methods in C#
 
 Functions always start with def (define)
 
+### 
 
 
 
