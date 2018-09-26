@@ -223,11 +223,19 @@ elif user_input < 100:
 elif user_input == 100:
 ​    print("Equal")
 
+# Custom Functions
 
+Python has many built in functions, like len(), that are predefined within the language. 
 
+Python also gives the developer the ability to define custom functions. See image below
 
+![1537920007561](C:\Users\Mparmer-Desk\AppData\Roaming\Typora\typora-user-images\1537920007561.png)
 
+This is a custom function from basics.py. It opens the file sample.txt reads the file into the fruits variable, then .splitlines converts the data from the .txt into a list that can be searched by the program. The conditional statement then takes the results of the searched list and applies that logic to the function, printing out the message required.
 
+Functions are similar to Methods in C#
+
+Functions always start with def (define)
 
 
 
