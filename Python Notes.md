@@ -239,8 +239,18 @@ Functions are similar to Methods in C#
 
 Functions always start with def (define)
 
+# Open files 
 
+### How  To
 
+​	Create variable where file object is stored. 
+​	Create variable where the file is read and stored as a string
+​	Close file
 
+### File Navigation
 
+​	myfile.read() reads the file the myfile points to. After the initial read the cursor has moved through the file and is now after the last character in the file, so if myfile.read() is ran again you get a blank string as there is nothing for the cursor to move through. 
 
+​	myfile.seek(#) allows you to move the cursor to any point in the file, allowing myfile.read() to function again from the point indicated in .seek(#) forward.
+
+​	.splitlines turns the attached file input into a list.
