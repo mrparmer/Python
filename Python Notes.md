@@ -254,3 +254,7 @@ Functions always start with def (define)
 ​	myfile.seek(#) allows you to move the cursor to any point in the file, allowing myfile.read() to function again from the point indicated in .seek(#) forward.
 
 ​	.splitlines turns the attached file input into a list.
+
+# Writing to FIles
+
+open("file.txt", "w")
