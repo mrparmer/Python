@@ -246,9 +246,6 @@ Functions are similar to Methods in C#
 
 Functions always start with def (define)
 
-<<<<<<< HEAD
-### 
-=======
 # Open files 
 
 ### How  To
