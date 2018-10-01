@@ -74,7 +74,7 @@ round(10.6)
 str(10)
 '10'
 
-![1537496247096](C:\Users\Mparmer-Desk\AppData\Roaming\Typora\typora-user-images\1537496247096.png)
+![basic code](C:\Users\Mparmer-Desk\Documents\GitHub\Python\basic code.JPG)
 
 # List Slicing Examples
 
@@ -236,7 +236,9 @@ Python has many built in functions, like len(), that are predefined within the l
 
 Python also gives the developer the ability to define custom functions. See image below
 
-![1537920007561](C:\Users\Mparmer-Desk\AppData\Roaming\Typora\typora-user-images\1537920007561.png)
+![custom function](C:\Users\Mparmer-Desk\Documents\GitHub\Python\custom function.JPG)
+
+
 
 This is a custom function from basics.py. It opens the file sample.txt reads the file into the fruits variable, then .splitlines converts the data from the .txt into a list that can be searched by the program. The conditional statement then takes the results of the searched list and applies that logic to the function, printing out the message required.
 
@@ -244,9 +246,26 @@ Functions are similar to Methods in C#
 
 Functions always start with def (define)
 
+<<<<<<< HEAD
 ### 
+=======
+# Open files 
 
+### How  To
 
+​	Create variable where file object is stored. 
+​	Create variable where the file is read and stored as a string
+​	Close file
 
+### File Navigation
+>>>>>>> 848af9c0dcb26b10d8cfd118cbd46650660e3edf
 
+​	myfile.read() reads the file the myfile points to. After the initial read the cursor has moved through the file and is now after the last character in the file, so if myfile.read() is ran again you get a blank string as there is nothing for the cursor to move through. 
 
+​	myfile.seek(#) allows you to move the cursor to any point in the file, allowing myfile.read() to function again from the point indicated in .seek(#) forward.
+
+​	.splitlines turns the attached file input into a list.
+
+# Writing to FIles
+
+open("file.txt", "w")
