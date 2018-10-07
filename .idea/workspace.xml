@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d843d261-6894-429c-8147-22a78bcad0b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UdemyPrograms/Practice/forLoop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyPrograms/Practice/fruits.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UdemyPrograms/WritingToFile/ToFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UdemyPrograms/WhileLoop/WhileLoop.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,22 +14,23 @@
     <session id="1665934651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,18 +54,23 @@
         <entry file="file://$PROJECT_DIR$/UdemyPrograms/Practice/forLoop.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UdemyPrograms/WritingToFile/ToFile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UdemyPrograms/WhileLoop/WhileLoop.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -113,6 +116,7 @@
         <option value="$PROJECT_DIR$/employees.txt" />
         <option value="$PROJECT_DIR$/UdemyPrograms/WritingToFile/employees.txt" />
         <option value="$PROJECT_DIR$/UdemyPrograms/WritingToFile/ToFile.py" />
+        <option value="$PROJECT_DIR$/UdemyPrograms/WhileLoop/WhileLoop.py" />
       </list>
     </option>
   </component>
@@ -213,7 +217,7 @@
     <frame x="954" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23851204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2439825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,27 +261,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyPrograms/Basics; List, Dictionaries, User Input/basics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UdemyPrograms/OpeningFile/fruits.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/UdemyPrograms/Practice/fruits.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/employees.txt" />
     <entry file="file://$PROJECT_DIR$/UdemyPrograms/Practice/forLoop.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/employees.txt">
+    <entry file="file://$PROJECT_DIR$/UdemyPrograms/WritingToFile/numbers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/UdemyPrograms/WritingToFile/employees.txt">
@@ -287,8 +285,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UdemyPrograms/WritingToFile/numbers.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/UdemyPrograms/Basics; List, Dictionaries, User Input/basics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UdemyPrograms/WritingToFile/ToFile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -296,6 +298,9 @@
           <caret line="21" column="82" selection-start-line="21" selection-start-column="82" selection-end-line="21" selection-end-column="82" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdemyPrograms/WhileLoop/WhileLoop.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
